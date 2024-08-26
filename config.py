@@ -32,7 +32,7 @@ CDB_NAME = environ.get("CDB_NAME", "clonedata")
 
 #force sub 
 
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002056340901').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002056340901 -1001994589445 -1002078641731 -1002068837332').split()]
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://filesharing:filesharing123@cluster0.afn46h0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
