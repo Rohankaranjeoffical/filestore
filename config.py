@@ -16,7 +16,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "27996421"))
 API_HASH = environ.get("API_HASH", "5f5cb6a13ecff3d90e1ec73dc366e26d")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7160637539:AAG-a4kAtIY8rKxSnUWoPgXEVQ2fljq_zRE")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7160637539:AAFd_HvXfinHvQixUeP8Qc6cq050o6vlGNY")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/dc34bdb48442246cc82e6.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6887525311').split()]
